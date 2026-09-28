@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python Syllabus Toolkit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-mark"><span>Py</span></div>
+      <div>
+        <strong>Python</strong>
+        <small>Syllabus Toolkit</small>
+      </div>
+    </div>
+
+    <button class="mobile-close" id="closeSidebar">×</button>
+
+    <nav class="nav">
+      <p class="nav-label">WORKSPACE</p>
+      <button class="nav-item active" data-page="dashboard"><span>⌂</span> Dashboard</button>
+      <button class="nav-item" data-page="calculations"><span>∑</span> Calculations</button>
+      <button class="nav-item" data-page="numbers"><span>#</span> Number Operations</button>
+      <button class="nav-item" data-page="factoring"><span>◈</span> Factoring</button>
+      <button class="nav-item" data-page="roots"><span>√</span> Square Roots</button>
+      <button class="nav-item" data-page="swapping"><span>⇄</span> Swapping</button>
+      <button class="nav-item" data-page="advanced"><span>✦</span> Advanced</button>
+      <button class="nav-item" data-page="control"><span>if</span> Control Statements</button>
+
+      <p class="nav-label guide-label">PROJECT</p>
+      <button class="nav-item" data-page="guide"><span>i</span> Project Info</button>
+    </nav>
+
+    <div class="sidebar-bottom">
+      <div class="status-dot"></div>
+      <div><b>Python Project</b><small>Unit 3 and Unit 4 programs</small></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <button class="menu-btn" id="openSidebar">☰</button>
+      <div class="breadcrumbs"><span>Toolkit</span><b>/</b><strong id="crumb">Dashboard</strong></div>
+      <div class="top-actions">
+        <button class="icon-btn" id="themeBtn" title="Toggle theme">☾</button>
+        <div class="avatar">Py</div>
+      </div>
+    </header>
+
+    <section class="page-wrap">
+      <!-- DASHBOARD -->
+      <section class="page active" id="dashboard">
+        <div class="hero reveal">
+          <div class="hero-copy">
+            <div class="eyebrow"><i></i> UNIT 3 + UNIT 4</div>
+            <h1>Python Syllabus<br><em>Practice Project</em></h1>
+            <p>A collection of Python programs based on Unit 3 and Unit 4. Enter a value, run a program, and check the result.</p>
+            <div class="hero-actions">
+              <button class="primary-btn" data-go="calculations">Start with Calculations <span>→</span></button>
+              <button class="ghost-btn" data-go="guide">Project Details</button>
+            </div>
+          </div>
+          <div class="hero-orbit">
+            <div class="orbit orbit-a"></div>
+            <div class="orbit orbit-b"></div>
+            <div class="code-orb">
+              <span>Python</span>
+              <b>Programs</b>
+              <small>Unit 3<br>Unit 4</small>
+            </div>
+            <div class="float-chip chip-a">if / else</div>
+            <div class="float-chip chip-b">GCD</div>
+            <div class="float-chip chip-c">Fibonacci</div>
+          </div>
+        </div>
+
+        <div class="section-head reveal">
+          <div><span class="section-kicker">OVERVIEW</span><h2>Project Overview</h2></div>
+          <span class="mini-status"><i></i> Unit 3 + Unit 4</span>
+        </div>
+
+        <div class="stat-grid reveal">
+          <article class="stat-card blue"><div class="stat-icon">λ</div><strong>14+</strong><span>Python topics</span><small>Unit 3 & Unit 4</small></article>
+          <article class="stat-card purple"><div class="stat-icon">√</div><strong>3</strong><span>Square-root methods</span><small>3 methods</small></article>
+          <article class="stat-card orange"><div class="stat-icon">01</div><strong>2</strong><span>Units included</span><small>Unit 3 + Unit 4</small></article>
+          <article class="stat-card green"><div class="stat-icon">⚡</div><strong>∞</strong><span>Practice sections</span><small>Run examples locally</small></article>
+        </div>
+
+        <div class="section-head reveal">
+          <div><span class="section-kicker">MODULES</span><h2>Project Sections</h2></div>
+        </div>
+        <div class="module-grid reveal">
+          <article class="module-card" data-go="calculations">
+            <div class="module-top"><span class="module-icon blue-bg">∑</span><span class="arrow">↗</span></div>
+            <h3>Calculations</h3><p>Factorial, Fibonacci, sum and average.</p><div class="module-bar"><span style="width:72%"></span></div>
+          </article>
+          <article class="module-card" data-go="factoring">
+            <div class="module-top"><span class="module-icon purple-bg">◈</span><span class="arrow">↗</span></div>
+            <h3>Factoring</h3><p>Primes, factors, GCD and divisors.</p><div class="module-bar purple"><span style="width:86%"></span></div>
+          </article>
+          <article class="module-card" data-go="roots">
+            <div class="module-top"><span class="module-icon green-bg">√</span><span class="arrow">↗</span></div>
+            <h3>Square Roots</h3><p>Newton, long division and subtraction.</p><div class="module-bar green"><span style="width:64%"></span></div>
+          </article>
+          <article class="module-card" data-go="control">
+            <div class="module-top"><span class="module-icon orange-bg">if</span><span class="arrow">↗</span></div>
+            <h3>Control Statements</h3><p>Conditions, loops and loop control.</p><div class="module-bar orange"><span style="width:91%"></span></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- GENERIC WORK PAGES -->
+      <section class="page" id="calculations">
+        <div class="page-heading reveal"><span class="section-kicker">UNIT 3</span><h1>Calculations</h1><p>Practice the numerical programs included in the syllabus.</p></div>
+        <div class="workspace reveal">
+          <div class="work-panel">
+            <div class="panel-title"><span class="module-icon blue-bg">∑</span><div><h2>Calculation Lab</h2><small>Python program</small></div></div>
+            <label>Operation</label><select><option value="factorial">Factorial</option><option value="fibonacci">Fibonacci (nth term)</option><option value="fibonacci_sequence">Fibonacci Sequence</option><option value="sum_average">Sum and Average</option></select>
+            <label id="calcInputLabel">Number</label><input id="calcInput" type="text" placeholder="Enter a number">
+            <small class="input-help">For Sum and Average, enter numbers separated by commas (example: 10,20,30).</small>
+            <button class="primary-btn run-demo">Run Algorithm <span>→</span></button>
+          </div>
+          <div class="result-panel"><div class="result-label">RESULT</div><div class="result-screen"><span class="cursor">_</span><p class="result-value">Waiting for your input...</p></div><div class="result-footer"><span>● Ready</span><small>Ready to run</small></div></div>
+        </div>
+      </section>
+
+      <section class="page" id="numbers">
+        <div class="page-heading reveal"><span class="section-kicker">UNIT 3</span><h1>Number Operations</h1><p>Reverse numbers, count digits and calculate GCD.</p></div>
+        <div class="workspace reveal">
+          <div class="work-panel">
+            <div class="panel-title"><span class="module-icon purple-bg">#</span><div><h2>Number Lab</h2><small>Python program</small></div></div>
+            <label>Operation</label><select><option value="reverse">Reverse Number</option><option value="count_digits">Count Digits</option><option value="gcd">GCD</option><option value="base_conversion">Base Conversion (2–36)</option></select>
+            <label>First number</label><input type="number" placeholder="Enter number">
+            <label>Second number <small>(for GCD)</small></label><input type="number" placeholder="Optional">
+            <button class="primary-btn run-demo">Run Operation <span>→</span></button>
+          </div>
+          <div class="result-panel"><div class="result-label">OUTPUT</div><div class="result-screen"><span class="big-symbol">#</span><p class="result-value">Your result will appear here.</p></div><div class="result-footer"><span>● Ready</span><small>Ready to run</small></div></div>
+        </div>
+      </section>
+
+      <section class="page" id="factoring">
+        <div class="page-heading reveal"><span class="section-kicker">UNIT 4</span><h1>Factoring</h1><p>Explore primes, prime factors, smallest divisor and GCD.</p></div>
+        <div class="topic-strip reveal"><span>Prime Factors</span><span>Smallest Divisor</span><span>Is Prime</span><span>Generate Primes</span></div>
+        <div class="workspace reveal">
+          <div class="work-panel"><div class="panel-title"><span class="module-icon purple-bg">◈</span><div><h2>Factoring Lab</h2><small>Python factoring programs</small></div></div><label>Operation</label><select><option value="prime_factors">Prime Factors</option><option value="smallest_divisor">Smallest Divisor</option><option value="is_prime">Is Prime</option><option value="generate_primes">Generate Primes</option></select><label>Number / Limit</label><input type="number" placeholder="e.g. 120"><button class="primary-btn run-demo">Analyze <span>→</span></button></div>
+          <div class="result-panel"><div class="result-label">FACTORIZATION</div><div class="result-screen"><span class="big-symbol">◈</span><p class="result-value">Choose an operation to begin.</p></div><div class="result-footer"><span>● Ready</span><small>Ready to run</small></div></div>
+        </div>
+      </section>
+
+      <section class="page" id="roots">
+        <div class="page-heading reveal"><span class="section-kicker">UNIT 4</span><h1>Square Roots</h1><p>Try three square-root methods from the syllabus.</p></div>
+        <div class="root-cards reveal">
+          <article><span>01</span><h3>Newton Method</h3><p>Uses repeated Newton iterations to approximate the root.</p></article>
+          <article><span>02</span><h3>Long Division</h3><p>Finds the integer root digit by digit.</p></article>
+          <article><span>03</span><h3>Repeated Subtraction</h3><p>Subtracts consecutive odd numbers until the value is reached.</p></article>
+        </div>
+        <div class="workspace reveal">
+          <div class="work-panel"><div class="panel-title"><span class="module-icon green-bg">√</span><div><h2>Root Lab</h2><small>Select a method and enter a number.</small></div></div><label>Method</label><select><option value="newton">Newton Method</option><option value="long">Long Division Method</option><option value="repeated">Repeated Subtraction Method</option></select><label>Number</label><input type="number" min="0" placeholder="e.g. 144"><button class="primary-btn run-demo">Find Square Root <span>→</span></button></div>
+          <div class="result-panel"><div class="result-label">RESULT</div><div class="result-screen"><span class="root-symbol">√</span><p class="result-value">Square-root result appears here.</p></div><div class="result-footer"><span>● Ready</span><small>Ready to run</small></div></div>
+        </div>
+      </section>
+
+      <section class="page" id="swapping">
+        <div class="page-heading reveal"><span class="section-kicker">UNIT 3</span><h1>Swapping</h1><p>Compare swapping with and without a temporary variable.</p></div>
+        <div class="swap-visual reveal"><div class="swap-box"><span>A</span><b>25</b></div><div class="swap-arrow">⇄</div><div class="swap-box"><span>B</span><b>80</b></div></div>
+        <div class="workspace reveal"><div class="work-panel"><div class="panel-title"><span class="module-icon blue-bg">⇄</span><div><h2>Swap Lab</h2><small>Choose either method.</small></div></div><label>A</label><input type="number" placeholder="25"><label>B</label><input type="number" placeholder="80"><div class="button-row"><button class="primary-btn run-demo">With Temp</button><button class="ghost-btn run-demo">Without Temp</button></div></div><div class="result-panel"><div class="result-label">SWAPPED VALUES</div><div class="result-screen"><p class="result-value">Run an approach to see the result.</p></div></div></div>
+      </section>
+
+      <section class="page" id="advanced">
+        <div class="page-heading reveal"><span class="section-kicker">UNIT 4</span><h1>Advanced</h1><p>Large powers and random number programs.</p></div>
+        <div class="advanced-grid reveal">
+          <article class="feature-card" data-operation="large_power"><span class="feature-icon">xⁿ</span><h2>Large Power</h2><p>Calculate a number raised to a large exponent.</p><input type="number" value="2" placeholder="Base (2–36)"><input type="number" value="10" placeholder="Exponent"><button class="ghost-btn run-advanced">Calculate →</button><pre class="mini-result">—</pre></article>
+          <article class="feature-card" data-operation="pseudo_random"><span class="feature-icon">⌁</span><h2>Pseudo-Random</h2><p>Generate the same type of integer from a seed and range.</p><input type="number" value="42" placeholder="Seed"><input type="number" value="1" placeholder="Minimum"><input type="number" value="100" placeholder="Maximum"><button class="ghost-btn run-advanced">Generate →</button><pre class="mini-result">—</pre></article>
+          <article class="feature-card" data-operation="random_float"><span class="feature-icon">0.5</span><h2>Random Float</h2><p>Generate a random decimal between two values.</p><input type="number" value="0" placeholder="Minimum"><input type="number" value="1" placeholder="Maximum"><button class="ghost-btn run-advanced">Generate →</button><pre class="mini-result">—</pre></article>
+        </div>
+      </section>
+
+      <section class="page" id="control">
+        <div class="page-heading reveal"><span class="section-kicker">UNIT 3</span><h1>Control Statements</h1><p>Examples of conditions, loops and loop-control statements.</p></div>
+        <div class="workspace reveal control-lab">
+          <div class="work-panel"><div class="panel-title"><span class="module-icon orange-bg">if</span><div><h2>Control Statement Lab</h2><small>Run a small example and view the output.</small></div></div><label>Statement</label><select><option value="if">if</option><option value="if_else">if-else</option><option value="while">while</option><option value="for">for + range</option><option value="break">break</option><option value="continue">continue</option><option value="pass">pass</option></select><label>Number</label><input type="number" value="5"><button class="primary-btn run-control">Run in Python →</button></div>
+          <div class="result-panel"><div class="result-label">PYTHON OUTPUT</div><div class="result-screen"><p class="control-result">Choose a statement and run it.</p></div></div>
+        </div>
+        <div class="control-grid reveal">
+          <article class="control-card"><span class="keyword">if</span><h3>if / elif / else</h3><p>Choose different execution paths based on conditions.</p><code>if score >= 50:</code></article>
+          <article class="control-card"><span class="keyword">if</span><h3>Nested if</h3><p>Place one conditional decision inside another.</p><code>if age &gt;= 18:</code></article>
+          <article class="control-card"><span class="keyword">for</span><h3>Loops</h3><p>Repeat operations using for, while and range.</p><code>for i in range(5):</code></article>
+          <article class="control-card"><span class="keyword">↪</span><h3>break / continue / pass</h3><p>Control how a loop progresses.</p><code>continue</code></article>
+        </div>
+      </section>
+
+      <section class="page" id="guide">
+        <div class="page-heading reveal"><span class="section-kicker">REFERENCE</span><h1>Project Details</h1><p>A short overview of the programs and technologies used in this project.</p></div>
+        <div class="guide-list reveal">
+          <div><b>UNIT 3</b><span>Algorithms · if/else · nested if · for · while · range · break · continue · pass · swapping · digit count · sum/average · factorial · Fibonacci · reverse number · base conversion</span></div>
+          <div><b>UNIT 4</b><span>Square roots · smallest divisor · GCD · prime numbers · prime factors · pseudo-random numbers · large power · factoring methods</span></div>
+          <div><b>PROJECT</b><span>The frontend sends values to the Python programs and shows the returned result on the page.</span></div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <div class="toast" id="toast">Please start the Python server first.</div>
+  <script src="script.js"></script>
+</body>
+</html>
